@@ -23,14 +23,14 @@ class ItemsViewController: UIViewController ,CloudSightQueryDelegate {
     
     var itemArray = [Product]()
     var query : CloudSightQuery? = nil
-    var APIKEY = "ugmybs4d32j5yfyumjg9q9d3"
+    var APIKEY = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.initUI()
         // Init CloudSight
-        CloudSightConnection.sharedInstance().consumerKey = "jH1OYYWt1AbGkic_zGNjWA"
-        CloudSightConnection.sharedInstance().consumerSecret = "SQYZMRMfEiAGcPhwXNt-Wg"
+        CloudSightConnection.sharedInstance().consumerKey = ""
+        CloudSightConnection.sharedInstance().consumerSecret = ""
         // Test Purpose
         //        CloudSightConnection.sharedInstance().consumerKey = "micgxNLMmChbXHLl0CLULA"
         //        CloudSightConnection.sharedInstance().consumerSecret = "O6swU0FK8ZkdiQcLhqDEPA"
